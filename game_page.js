@@ -42,7 +42,7 @@ answer_turn = "player2";
 function check(){
   get_answer = document.getElementById("input_check_box").value;
   answer = get_answer.toLowerCase();
-  console.log("Answer: "+answer);
+  console.log("Answer in lowercase: "+answer);
 
   if(answer_turn == "player1"){
     player1_score = player1_score + 1;
